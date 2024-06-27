@@ -7,10 +7,10 @@ public class CreateContactTest {
 	@Test
 	public void createContact() {
 		
-	    String URL=System.getProperty("url","loclahost:8888/");
-	    String BROWSER=System.getProperty("browser","chrome");
-	    String USERNAME=System.getProperty("username","admin");
-	    String PASSWORD=System.getProperty("password","admin");
+	    String URL=System.getProperty("url");
+	    String BROWSER=System.getProperty("browser");
+	    String USERNAME=System.getProperty("username");
+	    String PASSWORD=System.getProperty("password");
 		System.out.println("contact is created");
 		System.out.println(URL);
 		System.out.println(BROWSER);
